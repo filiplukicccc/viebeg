@@ -30,7 +30,7 @@ ADD . .
 
 # Set the default host/port
 ENV HOST 0.0.0.0
-ENV PORT 4000
+ENV PORT 4011
 
 # Build distribution
 RUN npm run build

@@ -7,7 +7,7 @@ services:
       - .:/src
       - /src/node_modules
     ports:
-      - 4000:4000
+      - 4011:4011
     environment:
       HOST: "0.0.0.0"
       BROWSER_HOST: "0.0.0.0"
