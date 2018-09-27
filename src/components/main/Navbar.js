@@ -52,19 +52,19 @@ class Navbar extends Component {
 					</div>
 					<div className={css.menuStandard} style={{ marginLeft: 'auto', paddingRight: '50px' }}>
 						<Menu className={css.menuItem} stackable pointing secondary size='large' style={{ borderBottom: 'none', display: 'center', alignItems: 'center', justifyContent: 'center' }}>
-							<a href='/#home'><Menu.Item name='Home' active={activeItem === 'Home'} onClick={this.handleItemClick}>Home</Menu.Item></a>
-							<a href='/#about'><Menu.Item name='About' active={activeItem === 'About'} onClick={this.handleItemClick}>About</Menu.Item></a>
-							<a href='/#managment'><Menu.Item name='Managment' active={activeItem === 'Managment'} onClick={this.handleItemClick}>Managment</Menu.Item></a>
-							<a href='/#contact'><Menu.Item name='Contact' active={activeItem === 'Contact'} onClick={this.handleItemClick}>Contact</Menu.Item></a>
+							<a href='#home'><Menu.Item name='Home' active={activeItem === 'Home'} onClick={this.handleItemClick}>Home</Menu.Item></a>
+							<a href='#about'><Menu.Item name='About' active={activeItem === 'About'} onClick={this.handleItemClick}>About</Menu.Item></a>
+							<a href='#managment'><Menu.Item name='Managment' active={activeItem === 'Managment'} onClick={this.handleItemClick}>Managment</Menu.Item></a>
+							<a href='#contact'><Menu.Item name='Contact' active={activeItem === 'Contact'} onClick={this.handleItemClick}>Contact</Menu.Item></a>
 						</Menu>
 					</div>
 					<Transition visible={visible} animation='slide down' duration={650}>
 						<div className={css.menuRes}>
 							<Menu className={css.menuItem} stackable pointing secondary size='large' style={{ borderBottom: 'none' }} >
-								<a href='/#home'><Menu.Item name='Home' active={activeItem === 'Home'} onClick={this.handleItemClick}>Home</Menu.Item></a>
-								<a href='/#about'><Menu.Item name='About' active={activeItem === 'About'} onClick={this.handleItemClick}>About</Menu.Item></a>
-								<a href='/#managment'><Menu.Item name='Managment' active={activeItem === 'Managment'} onClick={this.handleItemClick}>Managment</Menu.Item></a>
-								<a href='/#contact'><Menu.Item name='Contact' active={activeItem === 'Contact'} onClick={this.handleItemClick}>Contact</Menu.Item></a>
+								<a href='#home'><Menu.Item name='Home' active={activeItem === 'Home'} onClick={this.handleItemClick}>Home</Menu.Item></a>
+								<a href='#about'><Menu.Item name='About' active={activeItem === 'About'} onClick={this.handleItemClick}>About</Menu.Item></a>
+								<a href='#managment'><Menu.Item name='Managment' active={activeItem === 'Managment'} onClick={this.handleItemClick}>Managment</Menu.Item></a>
+								<a href='#contact'><Menu.Item name='Contact' active={activeItem === 'Contact'} onClick={this.handleItemClick}>Contact</Menu.Item></a>
 							</Menu>
 						</div>
 					</Transition>

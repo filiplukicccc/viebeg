@@ -18,11 +18,11 @@ class Counter extends Component {
                   ({ isVisible }) => isVisible ?
                     <Grid className={css.counterGrid} style={{ width: '100%', zIndex: '2', color: 'white' }}>
                       <GridRow centered>
-                        <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={4.75} start={0} end={23} /></p> <p>PARTNERS</p>
+                        <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={4.75} start={0} end={230} /></p> <p>CLIENTS</p>
                         </GridColumn>
-                        <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={3.75} start={0} end={4} /></p> <p> COMPANIES</p></GridColumn>
-                        <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={4.75} start={0} end={3} /></p>  <p>CONTINETS</p></GridColumn>
-                        <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={3.75} start={0} end={150} /></p> <p>EMPLOYEES</p></GridColumn>
+                        <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={3.75} start={0} end={15} /></p> <p> YEARS EXPIRIENCE</p></GridColumn>
+                        <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={4.75} start={0} end={2} /></p>  <p>CONTINETS</p></GridColumn>
+                        <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={3.75} start={0} end={21} /></p> <p>EMPLOYEES</p></GridColumn>
                       </GridRow>
                     </Grid> : ''
                 }

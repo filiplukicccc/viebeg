@@ -100,7 +100,7 @@ export default new WebpackConfig().extend({
       'process.env': {
         // Point the server host/port to the production server
         HOST: JSON.stringify(process.env.HOST || 'localhost'),
-        PORT: JSON.stringify(process.env.PORT || '4000'),
+        PORT: JSON.stringify(process.env.PORT || '4011'),
         SSL_PORT: process.env.SSL_PORT ? JSON.stringify(process.env.SSL_PORT) : null,
 
         // Optimise React, etc
