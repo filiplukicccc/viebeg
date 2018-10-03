@@ -20,8 +20,8 @@ class Counter extends Component {
                       <GridRow centered>
                         <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={4.75} start={0} end={230} /></p> <p>CLIENTS</p>
                         </GridColumn>
-                        <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={3.75} start={0} end={15} /></p> <p> YEARS EXPIRIENCE</p></GridColumn>
-                        <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={4.75} start={0} end={2} /></p>  <p>CONTINETS</p></GridColumn>
+                        <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={3.75} start={0} end={15} /></p> <p> YEARS OF EXPIRIENCE</p></GridColumn>
+                        <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={4.75} start={0} end={2} /></p>  <p>CONTINENTS</p></GridColumn>
                         <GridColumn textAlign='center' computer={3} tablet={7} mobile={15}><p><CountUp duration={3.75} start={0} end={21} /></p> <p>EMPLOYEES</p></GridColumn>
                       </GridRow>
                     </Grid> : ''
